@@ -1,0 +1,1 @@
+"""InterviewHub AI API application."""

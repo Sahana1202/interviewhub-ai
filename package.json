@@ -1,0 +1,15 @@
+{
+  "name": "college-query-chatbot",
+  "version": "1.0.0",
+  "description": "AI-style chatbot for answering college queries",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "chatbot",
+    "college",
+    "website"
+  ],
+  "license": "MIT"
+}

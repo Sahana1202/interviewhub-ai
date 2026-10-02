@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "PhishGuard - AI Phishing Detector",
+  "version": "1.0.0",
+  "description": "Detect suspicious URLs and fake login pages before you enter credentials.",
+  "permissions": ["activeTab", "tabs"],
+  "host_permissions": ["http://127.0.0.1:5000/*"],
+  "action": {
+    "default_title": "PhishGuard",
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [{
+    "matches": ["<all_urls>"],
+    "js": ["content.js"],
+    "css": ["warning.css"],
+    "run_at": "document_idle"
+  }]
+}

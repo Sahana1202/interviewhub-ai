@@ -1,0 +1,1 @@
+#phishguard-warning { position: fixed; top: 16px; left: 50%; transform: translateX(-50%); z-index: 2147483647; max-width: 620px; padding: 14px 18px; border: 1px solid #ff9b52; border-radius: 12px; background: #32160b; color: #fff6ed; box-shadow: 0 10px 30px rgba(0,0,0,.35); font: 14px/1.4 Arial, sans-serif; }

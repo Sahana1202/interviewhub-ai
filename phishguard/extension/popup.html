@@ -1,0 +1,11 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="stylesheet" href="popup.css"><title>PhishGuard</title></head>
+<body>
+  <main>
+    <header><div class="shield">⌁</div><div><h1>PhishGuard</h1><p>Phishing risk scanner</p></div></header>
+    <section class="url-card"><span id="domain">Checking current page…</span><small id="url"></small></section>
+    <section class="score-wrap"><div id="score" class="score low">--</div><div><h2 id="level">Analysing</h2><p id="verdict">Inspecting URL and page signals…</p></div></section>
+    <section><h3>Risk signals</h3><ul id="signals"><li class="muted">Loading scan results…</li></ul></section>
+    <footer><span id="engine">Local heuristic engine</span><button id="rescan">Rescan</button></footer>
+  </main><script src="popup.js"></script>
+</body></html>
